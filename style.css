@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    max-width: 100%;
+   max-height:100vh ;
+   position: relative;
+   background-color: rgb(19, 18, 18);
+ 
+   
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#main .header{
+   color: green;
+   margin-bottom: 1rem;
+}
+#main #content{
+    color: green;
+    font-size: 1.3rem;
+     height: 30vh;
+}
+#main #btn{
+        padding: 12px;
+        background-color: transparent;
+        border: 2px solid green;
+        color: green;
+        border-radius: 15px;
+    font-size: 1.5rem;
+        margin: 2rem;
+        cursor: pointer;
+
+}
+#main #btn:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+
+#main #image{
+   
+    max-height: 200px;
+    margin: 0 auto; /* centers the image */
+
+}
